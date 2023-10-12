@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    /*background: red;*/
+  }
+    nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: auto;
+  }
+  
+  nav .menu a:first-child {
+    color: #00b894;
+  }
+.head h1{
+    color: yellowgreen;
+    text-align: center;
+  }
+.container
+{
+	
+	background-image: url("con2.jpg");
+    color: gold;
+	width:30%;
+	height:220px;
+    border-radius: 10px;
+	overflow:hidden;
+    padding: 2%;
+    margin: 10px;
+  	float:left;
+	margin-right:2%;
+}
+
+.container1
+{
+	background-image: url("con2.jpg");
+    color: gold;
+	width:30%;
+	height:220px;
+    border-radius: 10px;
+    padding: 2%;
+	overflow:hidden;
+    margin: 10px;
+	float:left;
+	margin-right:2%;
+}
+
+.container2
+{background-image: url("con3.jpg");
+    opacity: 0.9;
+    color: gold;
+	width:30%;
+	height:220px;
+    border-radius: 10px;
+    padding: 2%;
+	overflow:hidden;
+    margin: 10px;
+	float:left;
+	margin-right:2%;
+}
+.head2{
+    text-align: center;
+    color: yellowgreen;
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+    }
+    .skill{
+        background-image: url("sk.jpg");
+    color: gold;
+	width:30%;
+	height:220px;
+    border-radius: 10px;
+    padding: 2%;
+	overflow:hidden;
+    margin: 10px;
+	float:left;
+	margin-right:2%;
+    }
+    .skill2{
+        background-image: url("sk.jpg");
+    color: gold;
+	width:30%;
+	height:220px;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 2%;
+	overflow:hidden;
+    margin: 10px;
+	float:left;
+	margin-right:2%;
+    }
+
+
